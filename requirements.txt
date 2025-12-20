@@ -1,0 +1,19 @@
+# --- Core Framework (LangChain v1.0 Stable) ---
+langchain>=1.2.0
+langchain-community>=0.3.0
+langchain-core>=1.2.0
+
+# --- Google Gemini Official Integration ---
+# Using the 2025 consolidated SDK
+langchain-google-genai>=4.1.2
+google-genai>=1.0.0
+
+# --- Document Processing & RAG Tools ---
+pypdf>=4.0.0
+langchain-chroma>=0.1.0  # Industry standard local vector store
+tiktoken>=0.7.0          # Essential for token counting
+
+# --- App Infrastructure ---
+python-dotenv>=1.0.1     # To manage your GOOGLE_API_KEY
+pydantic>=2.10.0         # Modern data validation
+streamlit>=1.40.0        # For building the web UI
